@@ -1,0 +1,105 @@
+html body {
+	text-align: center;
+	background-color: #829068;
+}
+
+.open {
+	width: 85vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.welcome {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	color: #FFF8DC;
+}
+
+.title {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	font-size: 55px;
+	color: #181818;
+}
+
+.formTitle {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	color: #181818;
+	margin-bottom: 20px;
+}
+
+.form {
+	width: 60vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
+}
+
+.searchTerm {
+	margin-right: 15px;
+}
+
+
+.searchTitle {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	color: #181818;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+
+.searchInput {
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.moreInfoButton {
+	margin-right: 15px;
+	padding-bottom: 25px;
+}
+
+.gridParkList {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.parkDescription {
+	text-align: left;
+}
+
+.welcomeImage {
+	margin-top: 35px;
+	height: 55vh;
+}
+
+@media screen and (max-width:700px) {
+.title {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	color: #181818;
+}
+/*.welcomeImage {
+	margin-top: 35px;
+	width: 250px;
+}*/
+}
+
+/*@media screen and (min-width:501px, max-width:600px) {
+.title {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	color: #181818;
+}
+.welcomeImage {
+	margin-top: 35px;
+	width: 270px;
+}
+}*/
+
