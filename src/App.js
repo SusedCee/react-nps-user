@@ -22,7 +22,7 @@ const My404 = () => {
       Welcome to the National Parks Finder Application where you can search for national parks and find more information about the park through the official NPS link. Login or register if you are not a member.
     </div>
     <div>
-      <img className="welcomeImage" src='./public/npsarrowhead.jpg' alt="arrowhead logo"/>
+      <img className="welcomeImage" src='./public/npsarrowhead.ico' alt="arrowhead logo"/>
     </div>
     </div>
     )
