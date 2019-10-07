@@ -107,7 +107,7 @@ class Header extends Component {
 
 		<Menu inverted size='massive'>
         <Menu.Item>
-          <img src='http://www.appalachiantrail.org/images/default-source/explore-the-trail/explore-by-state/new-hampshire/whitemountains_icon.png?sfvrsn=a7dcb3a0_0&MaxWidth=300&MaxHeight=&ScaleUp=false&Quality=High&Method=ResizeFitToAreaArguments&Signature=CCBC1DFB5D23D53871E00A06D171ADC58E797F1E'/>
+          <img src='favicon.ico' alt="alt"/>
         </Menu.Item>
 
 
