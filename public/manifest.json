@@ -3,17 +3,17 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "http://www.appalachiantrail.org/images/default-source/explore-the-trail/explore-by-state/new-hampshire/whitemountains_icon.png?sfvrsn=a7dcb3a0_0&MaxWidth=300&MaxHeight=&ScaleUp=false&Quality=High&Method=ResizeFitToAreaArguments&Signature=CCBC1DFB5D23D53871E00A06D171ADC58E797F1E",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png"
     },
     {
-      "src": "http://www.appalachiantrail.org/images/default-source/explore-the-trail/explore-by-state/new-hampshire/whitemountains_icon.png?sfvrsn=a7dcb3a0_0&MaxWidth=300&MaxHeight=&ScaleUp=false&Quality=High&Method=ResizeFitToAreaArguments&Signature=CCBC1DFB5D23D53871E00A06D171ADC58E797F1E",
+      "src": "favicon.ico",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "http://www.appalachiantrail.org/images/default-source/explore-the-trail/explore-by-state/new-hampshire/whitemountains_icon.png?sfvrsn=a7dcb3a0_0&MaxWidth=300&MaxHeight=&ScaleUp=false&Quality=High&Method=ResizeFitToAreaArguments&Signature=CCBC1DFB5D23D53871E00A06D171ADC58E797F1E",
+      "src": "favicon.ico",
       "type": "image/png",
       "sizes": "512x512"
     }	    
