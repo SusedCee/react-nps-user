@@ -25,9 +25,8 @@ class Header extends Component {
 
 	closeAndEdit = async (e) => {
     e.preventDefault();
-
     try {
-      const editRequest = await fetch('http://localhost:9000/api/v1/user/' + this.state.userToEdit._id, {
+      const editRequest = await fetch(process.env.REACT_APP_BACKEND_URL + '/api/v1/user/' + this.state.userToEdit._id, {
         method: 'PUT',
         credentials: 'include',
         body: JSON.stringify(this.state.userToEdit),
