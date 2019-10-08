@@ -21,9 +21,6 @@ const My404 = () => {
     <div className="welcome">
       Welcome to the National Parks Finder Application where you can search for national parks and find more information about the park through the official NPS link. Login or register if you are not a member.
     </div>
-    <div>
-      <img className="welcomeImage" src="./public/arrowhead.png" alt="arrowhead logo"/>
-    </div>
     </div>
     )
 };
