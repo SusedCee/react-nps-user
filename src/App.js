@@ -55,7 +55,7 @@ class App extends Component {
 
 updateOneUser = async (e) => {
     try {
-      const responseGetOneUser = await fetch('http://localhost:9000/auth/' + this.state.user._id, {
+      const responseGetOneUser = await fetch(process.env.REACT_APP_BACKEND_URL + this.state.user._id, {
         credentials: 'include',
         method: 'GET'
       });
@@ -93,7 +93,7 @@ updateOneUser = async (e) => {
   {
     e.preventDefault();
 
-    const loginResponse = await fetch('http://localhost:9000/auth/login', {
+    const loginResponse = await fetch(process.env.REACT_APP_BACKEND_URL + '/auth/login', {
       method: 'POST',
       credentials: 'include', 
       body: JSON.stringify(loginInfo),
