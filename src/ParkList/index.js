@@ -21,7 +21,7 @@ const ParkList = (props) => {
 					    <Divider />
 					    
 					    <Button  color="grey" href={park.url} target="_blank">More Info</Button> 
-				    	
+				    	<Button  color="grey" onClick={favoriteSave()}>Save to Favorites</Button>
 			  		</div>			  
 			 	  </Segment>
 				</Grid.Column>
@@ -40,8 +40,6 @@ const ParkList = (props) => {
 };
 
 export default ParkList;
-
-//<Button  color="grey" onClick={favoriteSave()}>Save to Favorites</Button>
 
 			//  <h2>This is the Park List</h2>
 
