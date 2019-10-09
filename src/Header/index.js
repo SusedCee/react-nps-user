@@ -186,47 +186,6 @@ class Header extends Component {
 
 </Menu.Menu>
       </Menu>
-
-
- //  	<header>
- //  		<ul>
-	// 					{
-	// 						this.props.loggedIn ?
-	// 						null
-	// 						:
-
-	// 							<li><Link className="item" to='/login'>Login</Link></li>
-	// 					}
-	// 					{
-	// 						this.props.loggedIn ?
-	// 						null
-	// 						:
-	// 							<li><Link className="item" to='/register'>Register</Link></li>
-	// 					}
-
-						
-	// 					{
-	// 						this.props.loggedIn ?
-	// 							<li><Link className="item" to='/parks'>Search for Parks</Link></li>
-	// 						:
-	// 							null	
-	// 					}
-	// 					{
-	// 						this.props.loggedIn ?
-	// 							<li><Link className="item" to='/profile'>Edit my Profile</Link></li>
-	// 						:
-	// 							null	
-	// 					}
-	// 					{
-	// 						this.props.loggedIn ?
-
-	// 							<li><Link className="item" to='/'>Logout</Link></li>
-	// 						:
-	// 							null	
-	// 					}
-	// 	</ul>
-
-	// </header>
 	);
 	}
 };
