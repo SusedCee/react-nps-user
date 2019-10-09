@@ -92,10 +92,10 @@ class Header extends Component {
   {
   	this.props.history.push('/parks');
   }
-  handleFavoriteClick = () =>
-  {
-  	this.props.history.push('/favorites');
-  }
+  // handleFavoriteClick = () =>
+  // {
+  // 	this.props.history.push('/favorites');
+  // }
   
 
 
@@ -148,17 +148,17 @@ class Header extends Component {
         null
     	}
 
-        {
-        this.props.loggedIn ?
-        <Menu.Item
-          name='favorite'
-          // onClick={this.handleFavoriteClick}
-        >
-        FAVORITES
-        </Menu.Item>
-        : 
-        null
-    	}
+     //    {
+     //    this.props.loggedIn ?
+     //    <Menu.Item
+     //      name='favorite'
+     //      // onClick={this.handleFavoriteClick}
+     //    >
+     //    FAVORITES
+     //    </Menu.Item>
+     //    : 
+     //    null
+    	// }
 
         {
         this.props.loggedIn ?
